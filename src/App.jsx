@@ -32,10 +32,10 @@ const App = () => {
 
   return (
     <div
-      className="App h-screen bg-cover bg-center flex flex-col justify-start items-center gap-7 pt-24"
+      className="App h-screen bg-cover bg-center flex flex-col justify-start items-center gap-7 pt-40"
       style={backgroundImg}
     >
-      <h1 className="text-white text-4xl">INFOGALAX</h1>
+      <h1 className="text-white text-5xl">INFOGALAX</h1>
       <Card phrases={phrases[phraseIndex]} changePhrase={changePhrase} />
       <Source phrase={phrases[phraseIndex]} />
     </div>
